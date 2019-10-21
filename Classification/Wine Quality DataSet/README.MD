@@ -1,0 +1,1 @@
+In this project we will try to build a model to predict quality of wine based on its properties.

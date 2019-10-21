@@ -1,0 +1,5 @@
+# Detecting Malaria with Machine Learning.
+
+In this project we will try to build a Deep Learning model that can assist in detection of Malaria from blood smear slide images. The full discription of the dataset can be found at [HIH website](https://ceb.nlm.nih.gov/repositories/malaria-datasets/).
+
+I built and ran this model in a datalab environment on google cloud. The compute engine used in this project was powered by a single NVIDIA® Tesla® K80 GPU and 8 vCPUs with 7.2 GB memory. Note that the datagenerator object in the notebook resizes the images (which have a variety of sizes) to a target size of (128,128) pixels, and this is done via CPU in parallel to training of the model in GPU. Be generous when you choose the number of CPU cores to make sure your GPU is not idle during image processing sessions.
